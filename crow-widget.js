@@ -47,7 +47,7 @@ async function build() {
     t.textColor = color;
     t.shadowColor = new Color("#000000", 0.6);
     t.shadowRadius = 3;
-    t.shadowOffset = new Size(0, 1);
+    t.shadowOffset = new Point(0, 1);
     return t;
   }
 
